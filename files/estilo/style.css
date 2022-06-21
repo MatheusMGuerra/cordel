@@ -14,14 +14,14 @@ body {
 }
 
 header {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.74);
     color: white;
     text-align: center;
     padding: 2.5em;
     font-size: 1.5em;
 }
 
-header a {
+a {
     text-decoration: none;
     color: white;
     font-weight: bold;
@@ -31,4 +31,56 @@ main {
     background-color: white;
     width: 97%;
     margin: auto;
+    line-height: 2em;
+    font-size: 2em;
+    text-align: justify;
+}
+
+p {
+    padding-left: 2em;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 1em;
+}
+
+section#homemDoSertao {
+    background-image: url(../images/trabalhador-da-roça.avif);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#homemDoSertao p {
+    background-color: rgba(0, 0, 0, 0.511);
+    display: inline-block;
+    color: white;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+section#sertao {
+    background-image: url(../images/sertão.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    background-attachment: fixed;
+}
+
+section#sertao p {
+    background-color: rgba(0, 0, 0, 0.511);
+    display: inline-block;
+    color: white;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 1em;
 }
